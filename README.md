@@ -80,3 +80,27 @@ Terdapat dua dataset utama yang digunakan:
 
 ### 🗂 Struktur Proyek
 
+## 🛠️ How to Run the Code
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
+
+### **Clone Repository**
+```bash
+git clone https://github.com/Harumnesia/Machine-Learning.git
+cd Machine-Learning
+
+### **Virtual Environment**
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+### **Install Dependencies**
+pip install -r requirements.txt
+
+### **Jalankan Notebook (via Google Colab)**
+
+Klik salah satu notebook di folder `Notebook/` untuk membukanya langsung di Google Colab:
+
+- [Model 1 - Parfum Lokal (Harumnesia)](https://colab.research.google.com/github/Harumnesia/Machine-Learning/blob/main/Notebook/Model_1_Harumnesia.ipynb)
+- [Model 2 - Parfum Gabungan (Lokal + Luar)](https://colab.research.google.com/github/Harumnesia/Machine-Learning/blob/main/Notebook/Model_2_Gabungan.ipynb)
